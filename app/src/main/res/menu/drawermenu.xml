@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Others"
+        android:icon="@drawable/ic">
+
+    <item android:title="Menu"
+          android:id="@+id/nav_item_menu"
+          android:icon="@drawable/ic"/>
+
+    <item android:title="Manage Topics"
+          android:id="@+id/nav_item_mt"
+          android:icon="@drawable/sent"/>
+
+    <item android:title="Favorites"
+          android:id="@+id/nav_item_Fav"
+          android:icon="@drawable/star_filled"/>
+
+    </item>
+
+
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="Settings"
+            android:id="@+id/nav_item_settings"
+              android:icon="@drawable/settings"/>
+        <item android:title="Feedback"
+            android:id="@+id/nav_item_feedback"
+             android:icon="@drawable/help"/>
+    </group>
+
+
+</menu>
